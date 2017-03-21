@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84d966c2-a456-4cc5-b84d-b3664a6f6baa}</UniqueIdentifier>
+      <Extensions>h;inl</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4983c41c-7db9-4c34-8c2a-000fffbad253}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{55137ae5-c1a6-4500-8552-28386ed43b9f}</UniqueIdentifier>
+      <Extensions>htm</Extensions>
+    </Filter>
+    <Filter Include="Copyright">
+      <UniqueIdentifier>{aea462e8-47e1-424c-99e6-69135cd90737}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdifm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportSliceHeadAtXY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExportSliceHeadAtXY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExportSliceHeadAtXY.def" />
+    <None Include="ExportSliceHeadAtXY.htm">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ExportSliceHeadAtXY.txt">
+      <Filter>Copyright</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
