@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ExportSliceHeadAtXY.def" />
+    <None Include="ExportSliceHeadAtXY.docx" />
     <None Include="ExportSliceHeadAtXY.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>

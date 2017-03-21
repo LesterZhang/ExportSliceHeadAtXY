@@ -36,6 +36,9 @@
     <None Include="ExportSliceHeadAtXY.htm">
       <Filter>Documentation</Filter>
     </None>
+    <None Include="ExportSliceHeadAtXY.docx">
+      <Filter>Documentation</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ExportSliceHeadAtXY.txt">
